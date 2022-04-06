@@ -20,14 +20,15 @@ var srcDir = './src/';
 var outDir = './';
 
 var header = "/*!\n\
+ * Check out the original chartjs-plugin-annotation\n\
  * chartjs-plugin-annotation.js\n\
  * http://chartjs.org/\n\
  * Version: {{ version }}\n\
  *\n\
- * Copyright 2016 Evert Timberg\n\
- * Released under the MIT license\n\
+ * Forked to expand an old version of this plugin for text annotation support on chartjs 2.x.\n\
+ * It's poor form but I had a reason\n\
  * https://github.com/chartjs/Chart.Annotation.js/blob/master/LICENSE.md\n\
- */\n";
+ */\n"
 
 gulp.task('build', buildTask);
 gulp.task('bump', bumpTask);
